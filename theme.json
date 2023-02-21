@@ -1,0 +1,50 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "850px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				}
+			]
+		}
+	},
+	"styles": {
+		"css": "/* -------------------- */\n/* FONTS */\n/* -------------------- */\n@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Raleway:wght@300,700&display=swap');\n/* -------------------- */\n/* RESET */\n/* -------------------- */\n* {\n  font-family: 'Quicksand', sans-serif;\n  font-weight: 300;\n}\na {\n  text-decoration: none;\n}\na:hover {\n  text-decoration: underline;\n}\nh1,\nh2,\nh3 {\n  font-family: 'Raleway', sans-serif;\n}\nh1 a,\nh2 a,\nh3 a,\n.header a {\n  border-bottom: 3px solid #62BFD1;\n}\nh1 a:hover,\nh2 a:hover,\nh3 a:hover,\n.header a:hover {\n  border-bottom: none;\n  border-bottom: 3px solid #FFF;\n  text-decoration: none;\n}\nh2 {\n  font-size: 48px;\n  font-weight: 700;\n  line-height: 54px;\n}\nh3 {\n  font-size: 34px;\n  font-weight: 200;\n  line-height: 40px;\n}\nh4 {\n  font-size: 14px;\n  opacity: .5;\n}\np {\n  font-size: 18px;\n  font-weight: 200;\n  line-height: 32px;\n}\n/* -------------------- */\n/* FEATURE SHOWCASE */\n/* -------------------- */\nbody .feature-showcase .is-layout-flex {\n  gap: 48px;\n}\n.feature-showcase {\n margin-bottom: 84px;\n}\n/* -------------------- */\n/* FOOTER */\n/* -------------------- */\nfooter h2.has-medium-font-size {\n  font-size: 36px !important;\n}\nfooter .powered-by {\n  font-size: 12px;\n  text-transform: uppercase;\n}\n/* -------------------- */\n/* HEADER */\n/* -------------------- */\n.header p {\n  font-family: 'Raleway', sans-serif;\n  font-size: 34px;\n  font-weight: 300;\n  line-height: 52px;\n}\n.header p a {\n  border-bottom-width: 3px;\n}\n.header p em {\n  background: #D0F7D1;\n  font-style: normal;\n  position: relative;\n}\n/* -------------------- */\n/* POST */\n/* -------------------- */\n.post-meta a {\n  font-size: 12px;\n  text-transform: uppercase;\n}\n/* -------------------- */\n/* RESPONSIVE */\n/* -------------------- */\n@media only screen and (max-width: 600px) {\n  body .feature-showcase .is-layout-flex {\n    gap: 24px;\n  }\n  .feature-showcase {\n    padding: 0 40px;\n  }\n  .header-single {\n    padding: 0 40px;\n  }\n  footer .wp-block-group {\n    padding: 0 40px;\n  }\n  .header {\n    padding: 40px !important;\n  }\n  .home-feature-right .wp-block-columns {\n    flex-direction: column-reverse;\n  }\n  .wp-block-query {\n    padding: 0 40px;\n  }\n  .wp-block-query h2 {\n    font-size: 36px;\n    line-height: 44px;\n  }\n}",
+		"elements": {
+			"link": {
+				"color": {
+					"text": "var:preset|color|black"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	],
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}
